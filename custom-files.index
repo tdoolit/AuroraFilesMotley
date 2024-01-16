@@ -2,6 +2,9 @@
 <index>
 	<info>
 		<name>Custom Files</name>
+        <update version="1.0.0">
+            <file name="custom-files.index" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/custom-files.index" />
+        </update>
 	</info>
 	<files>
         <file name="Harimari.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/Harimari.xml"/>

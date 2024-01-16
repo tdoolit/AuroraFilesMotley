@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <name>Dankwood Goblin Rework</name>
+        <description>Dankwood Goblin with nimble escape changed</description>
+        <update version="1.0.0">
+            <file name="dankwood-rework.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/dankwood-rework.xml"/>
+        </update>
+    </info>
     <element name="Dankwood Goblin (Reid Rework)" type="Race" source="Adventure with Muk" id="ID_WOTC_AWM_RACE_DANKWOOD_GOBLIN_REWORK">
         <description>
             <p class="flavor">Ahh the Dankwood goblins! I have adventured far and wide in my time and never have I met such unique and interesting goblins as these. Perhaps it is the magical nature of the Dankwood itself as this forest was once rumored to have been the ancient sanctum of a powerful Netherese wizard, but who is to say? This world is a wondrous one and everywhere you go, something new is there to dazzle and amaze!</p>

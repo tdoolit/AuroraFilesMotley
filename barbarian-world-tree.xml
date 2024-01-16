@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <name>World Tree Barbarian</name>
+        <description>World Tree Barbarian Subclass from UA Playtest</description>
+        <update version="1.0.0">
+            <file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml"/>
+        </update>
+    </info>
     <!-- Path of the World Tree -->
     <element name="Path of the World Tree" type="Archetype" source="UA Playtest 2023" id="ID_WOTC_UA_ARCHETYPE_PATH_OF_THE_WORLD_TREE">
         <supports>Primal Path</supports>

@@ -4,7 +4,7 @@
         <name>Harimari Custom Race</name>
         <description>Harimari with custom attributes</description>
         <update version="1.0.0">
-            <file name="Harimari.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/Harimari.xml?token=GHSAT0AAAAAACM6MJNAJQ6PZ62PVLJPE3QMZNHBD5Q"/>
+            <file name="Harimari.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/Harimari.xml"/>
         </update>
     </info>
 	<element name="Harimari" type="Race" source="Anbennar" id="ID_ABENNAR_HARIMARI">

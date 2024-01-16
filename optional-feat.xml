@@ -4,7 +4,7 @@
 		<name>Feat at level 1</name>
 		<description>Feat at level 1</description>
 		<update version="1.0.0">
-			<file name="optional-feat.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/optional-feat.xml?token=GHSAT0AAAAAACM6MJNAOQAC6RTVMRDIS7RIZNHBFDQ"/>
+			<file name="optional-feat.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/optional-feat.xml"/>
 		</update>
 	</info>
 	<element name="Free Feat at level 1" type="Option" source="DM houserules" id="ID_HOUSERULES_FREE_FEAT">

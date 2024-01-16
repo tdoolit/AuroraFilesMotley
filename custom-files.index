@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Files</name>
         <update version="1.0.0">
-            <file name="custom-files.index" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/custom-files.index" />
+            <file name="custom-files.index" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/custom-files.index?token=GHSAT0AAAAAACM6MJNBE6ENMQTXAFMB6YH2ZNHBF2Q" />
         </update>
 	</info>
 	<files>

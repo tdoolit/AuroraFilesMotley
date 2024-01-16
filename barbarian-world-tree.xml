@@ -4,7 +4,7 @@
         <name>World Tree Barbarian</name>
         <description>World Tree Barbarian Subclass from UA Playtest</description>
         <update version="1.0.0">
-            <file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml"/>
+            <file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml?token=GHSAT0AAAAAACM6MJNB63GA56AQ5NODJUQ6ZNHBEKQ"/>
         </update>
     </info>
     <!-- Path of the World Tree -->

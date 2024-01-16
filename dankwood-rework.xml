@@ -4,7 +4,7 @@
         <name>Dankwood Goblin Rework</name>
         <description>Dankwood Goblin with nimble escape changed</description>
         <update version="1.0.0">
-            <file name="dankwood-rework.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/dankwood-rework.xml"/>
+            <file name="dankwood-rework.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/dankwood-rework.xml?token=GHSAT0AAAAAACM6MJNBQHBHDR4656R2LJHEZNHBEXQ"/>
         </update>
     </info>
     <element name="Dankwood Goblin (Reid Rework)" type="Race" source="Adventure with Muk" id="ID_WOTC_AWM_RACE_DANKWOOD_GOBLIN_REWORK">

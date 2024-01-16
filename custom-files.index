@@ -7,9 +7,9 @@
         </update>
 	</info>
 	<files>
-        <file name="Harimari.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/Harimari.xml"/>
-        <file name="dankwood-rework.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/dankwood-rework.xml"/>
-        <file name="optional-feat.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/optional-feat.xml"/>
-        <file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml"/>
+        <file name="Harimari.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/Harimari.xml?token=GHSAT0AAAAAACM6MJNAJQ6PZ62PVLJPE3QMZNHBD5Q"/>
+        <file name="dankwood-rework.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/dankwood-rework.xml?token=GHSAT0AAAAAACM6MJNBQHBHDR4656R2LJHEZNHBEXQ"/>
+        <file name="optional-feat.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/optional-feat.xml?token=GHSAT0AAAAAACM6MJNAOQAC6RTVMRDIS7RIZNHBFDQ"/>
+        <file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml?token=GHSAT0AAAAAACM6MJNB63GA56AQ5NODJUQ6ZNHBEKQ"/>
     </files>
 </index>

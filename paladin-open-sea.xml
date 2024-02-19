@@ -4,7 +4,7 @@
         <name>Oath of the Open Sea</name>
         <description>The Oath of the Open Sea from Tal'Dorei Campaign Setting Reborn</description>
         <update version="1.0.0">
-            <file name="paladin-open-sea.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml"/>
+            <file name="paladin-open-sea.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/paladin-open-sea.xml"/>
         </update>
     </info>
     <!-- Oath of the Open Sea -->

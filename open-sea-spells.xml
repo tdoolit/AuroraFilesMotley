@@ -4,7 +4,7 @@
         <name>Spells for Oath of the Open Sea</name>
         <description>Spells for he Oath of the Open Sea from Tal'Dorei Campaign Setting Reborn</description>
         <update version="1.0.0">
-            <file name="open-sea-spells.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml"/>
+            <file name="open-sea-spells.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/open-sea-spells.xml"/>
         </update>
     </info>
 
@@ -51,5 +51,5 @@
 			<set name="isRitual">false</set>
         </setters>
     </element>
-    
+
 </elements>

@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Custom Files</name>
-        <update version="1.0.0">
+        <update version="1.1.0">
             <file name="custom-files.index" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/custom-files.index" />
         </update>
 	</info>
@@ -11,5 +11,7 @@
         <file name="dankwood-rework.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/dankwood-rework.xml"/>
         <file name="optional-feat.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/optional-feat.xml"/>
         <file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml"/>
+        <file name="paladin-open-sea.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/paladin-open-sea.xml"/>
+        <file name="open-sea-spells.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/open-sea-spells.xml"/>
     </files>
 </index>

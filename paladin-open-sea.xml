@@ -3,7 +3,7 @@
     <info>
         <name>Oath of the Open Sea</name>
         <description>The Oath of the Open Sea from Tal'Dorei Campaign Setting Reborn</description>
-        <update version="1.0.1">
+        <update version="1.0.2">
             <file name="paladin-open-sea.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/paladin-open-sea.xml"/>
         </update>
     </info>
@@ -106,7 +106,7 @@
             <p>Starting at 7th level, you fill nearby creatures with the energy of movement. While you're not incapacitated, you and creatures of your choice within 10 feet of you cannot be grappled or restrained, and ignore penalties on movement and attacks while underwater. Creatures that are already grappled or restrained when they enter the aura can spend 5 feet of movement to automatically escape unless they are bound by magic restraints.</p>
             <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
         </description>
-        <sheet action="Reaction">
+        <sheet>
             <description>Creatures of your choice within {{aura of liberation:aura}} feet cannot be grappled or restrained, and ignore penalities on movement and attacks while underwater. If a creature was already grappled or restrained they can spend 5 feet of movement to automatically escape, unless bounded by magic restraints.</description>
         </sheet>
         <rules>

@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Custom Files</name>
-        <update version="1.1.3">
+        <update version="1.2.0">
             <file name="custom-files.index" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/custom-files.index" />
         </update>
 	</info>
@@ -13,5 +13,6 @@
         <file name="barbarian-world-tree.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-world-tree.xml"/>
         <file name="paladin-open-sea.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/paladin-open-sea.xml"/>
         <file name="open-sea-spells.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/open-sea-spells.xml"/>
+        <file name="barbarian-martial-revis.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-martial-revis.xml"/>
     </files>
 </index>

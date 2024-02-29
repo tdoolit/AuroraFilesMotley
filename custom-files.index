@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Custom Files</name>
-        <update version="1.2.0">
+        <update version="1.2.1">
             <file name="custom-files.index" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/custom-files.index" />
         </update>
 	</info>

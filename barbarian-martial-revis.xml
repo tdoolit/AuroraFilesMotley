@@ -3,7 +3,7 @@
 	<info>
         <name>Barbarian Martial Revision</name>
         <description>Barbarian class with martial revisions for Homebrew</description>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="barbarian-martial-revis.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-martial-revis.xml"/>
         </update>
     </info>
@@ -340,25 +340,25 @@
 	</element>
 
     <!-- Martial Revision Changes -->
-    <element name="Furious Sprint" type="Class Feature" source="HB" id="ID_HB_CLASS_FEATURE_BARBARIAN_FURIOUS_SPRINT">
+    <element name="Furious Sprint" type="Class Feature" source="Homebrew" id="ID_HB_CLASS_FEATURE_BARBARIAN_FURIOUS_SPRINT">
         <description>
             <p>At 4th level you can use Dash as a Bonus Action.</p>
         </description>
-        <sheet>
+        <sheet action="Bonus Action">
             <description>You can Dash as a Bonus Action.</description>
         </sheet>
     </element>
 
-    <element name="Raging Might" type="Class Feature" source="HB" id="ID_HB_CLASS_FEATURE_BARBARIAN_RAGING_MIGHT">
+    <element name="Raging Might" type="Class Feature" source="Homebrew" id="ID_HB_CLASS_FEATURE_BARBARIAN_RAGING_MIGHT">
         <description>
             <p>At 4th level you can attempt to Shove a creature as a Bonus Action.</p>
         </description>
-        <sheet>
+        <sheet action="Bonus Action">
             <description>You can Shove as a Bonus Action.</description>
         </sheet>
     </element>
 
-    <element name="Reckless Critical" type="Class Feature" source="HB" id="ID_HB_CLASS_FEATURE_BARBARIAN_RECKLESS_CRITICAL">
+    <element name="Reckless Critical" type="Class Feature" source="Homebrew" id="ID_HB_CLASS_FEATURE_BARBARIAN_RECKLESS_CRITICAL">
         <description>
             <p>At 9th level, when you make a Reckless Attack, you score a critical hit on a roll of 19 or 20.</p>
         </description>
@@ -367,7 +367,7 @@
         </sheet>
     </element>
 
-    <element name="Critical Frenzy" type="Class Feature" source="HB" id="ID_HB_CLASS_FEATURE_BARBARIAN_CRITICAL_FRENZY">
+    <element name="Critical Frenzy" type="Class Feature" source="Homebrew" id="ID_HB_CLASS_FEATURE_BARBARIAN_CRITICAL_FRENZY">
         <description>
             <p>At 13th level, when you score a critical hit on an attack roll, you can make another attack as a part of the same attack action.</p>
         </description>
@@ -376,7 +376,7 @@
         </sheet>
     </element>
 
-    <element name="Beaten Senseless" type="Class Feature" source="HB" id="ID_HB_CLASS_FEATURE_BARBARIAN_BEATEN_SENSELESS">
+    <element name="Beaten Senseless" type="Class Feature" source="Homebrew" id="ID_HB_CLASS_FEATURE_BARBARIAN_BEATEN_SENSELESS">
         <description>
             <p>At 17th level, when you score a critical hit on an attack roll, the creature is vulnerable to the next damage dealt via an attack roll.</p>
         </description>

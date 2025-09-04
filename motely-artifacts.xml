@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Rings Of Duality" type="Magic Item" source="Homebrew" id="ID_HB_WONDEROUS_ITEM_RINGS_OF_DUALITY">
+        <description>
+            <p>A set of 8 rings, 4 white mithral with a black jewel inlaid in each and 4 dark iron set with a clear gem.</p>
+            <p>Each ring set gains 1d4-1 (min 1 rolled separately) charges per long rest up to a maximum of 4 (1 per ring). On the user's turn as a bonus action, they can expend 5 hit dice and make a Consitution saving throw DC 15 and take necrotic damage equal to the amount rolled or half on a success. The user can add 1 charge to each ring set.</p>
+            <p>As an action, you can expend charges to perfom the following actions:</p>
+            <ul>
+                <li>Harm (3 charges)</li>
+                <li>Heal (3 Charges)</li>
+            </ul>
+            <p><b>Converging Balance (Cost 2 charges from both sets):</b></p>
+            <ul>
+                <li>As an action if there are an equal number of charges in both ring sets the user can expend 2 charges in each to force a creature to make a DC 20 wisdom save. The creature takes 7d6 radiant or necrotic damage (user's choice) or half on a success. In the same action, the user can choose an ally within 30 feet and heal the user for the amoount of damage taken by the creature.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="keywords">rings, duality</set>
+            <set name="category">Wonderous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+
+    <element name="Regalia Of The Stout" type="Magic Item" source="Homebrew" id="ID_HB_ITEM_REGALIA_OF_THE_STOUT">
+        <description>
+            <p>This +2 platinum armor was passed down by the royal family of the dwarves in Citadel Felbarr. Inlaid with 10 different gemstones, this armor was sealed away to prevent ware between clans. It represents the joint effor of dozens of master blacksmits and enchanters to forge a pristine set of changing armor.</p>
+            <p>As an action, the armor can be condensed to a set of jewelry of the user's choice (ie. necklace with gemstones, bracelets, a crown). This is considered donning and doffing the armor. Once per short rest, the user can change the form of the armor to be any heavy or medium armor so long as it contains predominately metal. 3 sapphires, the symbol of the royal fmaily of Citadel Felbarr are always the most prominate gem.</p>
+            <p>Attuning to this armor grants the following benefits:</p>
+            <ul>
+                <li>Whenever you take the Dodge action in combat, you can spend Hit Dice equal to your Consitution modifier. Roll the die, add your Constituion modifier, and regain a number of hit points equal to the total (minimum of 1).</li>
+                <li>You are immune to the frightened condition.</li>
+                <li>Advantage agaisnt saving throws to be blinded, deafened and petrified.</li>
+            </ul>
+            <p><b>Elemental Gemstones</b></p>
+            <p>At the end of a short rest, choose 1 damage type (excluding bludgeoning, piercing, or slashing) to gain resistance against.</p>
+            <p>If you take damage from the element you have resistance to, the next weapon attak made deals 2d6 damage of the damage type stored.</p>
+            <p><b>Transfer Element</b></p>
+            <p>(Profiency times per long rest)</p>
+            <p>As a reaction, if the user takes damage, no including bludeoning, piercing, or slashing, the user can change the armor's resistance to that damage type prior to the damage calculation.</p>
+            <p>If you take damage from the element you have resistance to, you can use this reacitno to temporarily give an ally within 30ft resistance to that damage until the start of your next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">Regalia, stout</set>
+            <set name="category">Magic Armor</set>
+            <set name="slot">body</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="medium, or heavy">Armor</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+            <set name="enhancement">2</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+        </setters>
+        <rules>
+            <stat name="ac:armored:enchancement" value="2" bonus="enhancement"/>
+        </rules>
+    </element>
+
+    <element name="Wrath Of Nature (Dormant)" type="Magic Item" source="Homebrew" id="ID_HB_ITEM_WRATH_OF_NATURE_DORMANT">
+        <description>
+            <p>This hooded mantle made of oak leaves and vines cascades down to the desired length of the user. Gifted to ancient druids long forgotten, this mantle represents the fury displayed by a cornered beast. The Wrath of Nature grows in power as the wearer defends the flora and fauna of all regions.</p>
+            <p><b>Dormant</b></p>
+            <p>While Wrath of Nature is in a dormant state, you can spend 1 Wildshape to "Wild Rage".</p>
+            <p>Additionally, you can change the length of the mantle as well as the color of the leaves at will.</p>
+            <p><b>Wild Rage</b></p>
+            <p>As a bonus Action, you transform into a beast up to CR 1/4 of your Druid level (rounded up). In a "Wild Rage" you gain the following:</p>
+            <ul>
+                <li>You have Advantage of Strength checks and Strength saving throws</li>
+                <li>When you make a melee attack using strength, you gain a +2 bonus to the damage roll</li>
+                <li>You havve resistance to bludeoning, piercing, and slashing damage</li>
+                <li>If you are abel to cast spells, you can't cast them or concentrate on them while raging</li>
+                <li>Damage done with attacks in this form are considered magical to overcome resistances</li>
+            </ul>
+            <p>A "Wild Rage" lasts for 1 minute. You can also end your rage on your turn as a bonus action.</p>
+        </description>
+        <setters>
+            <set name="keywords">wrath, nature</set>
+            <set name="category">Wonderous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+
+    <element name="Wrath Of Nature (Awakended)" type="Magic Item" source="Homebrew" id="ID_HB_ITEM_WRATH_OF_NATURE_AWAKENED">
+        <description>
+            <p>This hooded mantle made of oak leaves and vines cascades down to the desired length of the user. Gifted to ancient druids long forgotten, this mantle represents the fury displayed by a cornered beast. The Wrath of Nature grows in power as the wearer defends the flora and fauna of all regions.</p>
+            <p><b>Dormant</b></p>
+            <p>While Wrath of Nature is in a dormant state, you can spend 1 Wildshape to "Wild Rage".</p>
+            <p>Additionally, you can change the length of the mantle as well as the color of the leaves at will.</p>
+            <p><b>Awakended</b></p>
+            <p>When Wrath of Nature reaches an awakened state, you gain the following benefits:</p>
+            <ul>
+                <li>Your bonus damage increases to +3</li>
+                <li>Wild Raging no longer costs a Wildshape, however you can only Wild Rage once per short rest</li>
+                <li>Gain +1 AC while Wild Raging</li>
+                <li>Gain the Reckless Attack Ability</li>
+            </ul>
+            <p><b>Wild Rage</b></p>
+            <p>As a bonus Action, you transform into a beast up to CR 1/4 of your Druid level (rounded up). In a "Wild Rage" you gain the following:</p>
+            <ul>
+                <li>You have Advantage of Strength checks and Strength saving throws</li>
+                <li>When you make a melee attack using strength, you gain a +2 bonus to the damage roll</li>
+                <li>You havve resistance to bludeoning, piercing, and slashing damage</li>
+                <li>If you are abel to cast spells, you can't cast them or concentrate on them while raging</li>
+                <li>Damage done with attacks in this form are considered magical to overcome resistances</li>
+            </ul>
+            <p>A "Wild Rage" lasts for 1 minute. You can also end your rage on your turn as a bonus action.</p>
+            <p><b>Reckless Attack</b></p>
+            <p>WQhen you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls agaisnt you have advantage until your next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">wrath, nature</set>
+            <set name="category">Wonderous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+
+    <element name="Wrath Of Nature (Exalted)" type="Magic Item" source="Homebrew" id="ID_HB_ITEM_WRATH_OF_NATURE_EXALTED">
+        <description>
+            <p>This hooded mantle made of oak leaves and vines cascades down to the desired length of the user. Gifted to ancient druids long forgotten, this mantle represents the fury displayed by a cornered beast. The Wrath of Nature grows in power as the wearer defends the flora and fauna of all regions.</p>
+            <p><b>Dormant</b></p>
+            <p>While Wrath of Nature is in a dormant state, you can spend 1 Wildshape to "Wild Rage".</p>
+            <p>Additionally, you can change the length of the mantle as well as the color of the leaves at will.</p>
+            <p><b>Awakended</b></p>
+            <p>When Wrath of Nature reaches an awakened state, you gain the following benefits:</p>
+            <ul>
+                <li>Your bonus damage increases to +3</li>
+                <li>Wild Raging no longer costs a Wildshape, however you can only Wild Rage once per short rest</li>
+                <li>Gain +1 AC while Wild Raging</li>
+                <li>Gain the Reckless Attack Ability</li>
+            </ul>
+            <p><b>Exalted</b></p>
+            <p>When Wrath of Nature reaches an exalted state, you gain the following benefits:</p>
+            <ul>
+                <li>Your bonus damage increases to +4</li>
+                <li>Your AC is increased to +2 while Wild Raging</li>
+                <li>Crit on a 19 and 20 while Wild Raging</li>
+                <li>You can expend your use of Wild Rage in order to gain 1 use of Wildshape. This can be used for normal Wildshape (beast) or a subclass Wildshape (Stars Druid "Starry Form")</li>
+            </ul>
+            <p><b>Wild Rage</b></p>
+            <p>As a bonus Action, you transform into a beast up to CR 1/4 of your Druid level (rounded up). In a "Wild Rage" you gain the following:</p>
+            <ul>
+                <li>You have Advantage of Strength checks and Strength saving throws</li>
+                <li>When you make a melee attack using strength, you gain a +2 bonus to the damage roll</li>
+                <li>You havve resistance to bludeoning, piercing, and slashing damage</li>
+                <li>If you are abel to cast spells, you can't cast them or concentrate on them while raging</li>
+                <li>Damage done with attacks in this form are considered magical to overcome resistances</li>
+            </ul>
+            <p>A "Wild Rage" lasts for 1 minute. You can also end your rage on your turn as a bonus action.</p>
+            <p><b>Reckless Attack</b></p>
+            <p>WQhen you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls agaisnt you have advantage until your next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">wrath, nature</set>
+            <set name="category">Wonderous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+
+    <element name="Maelstrom Rider" type="Magic Item" source="Homebrew" id="ID_HB_WONDEROUS_ITEM_MAELSTROM_RIDER">
+        <description>
+            <p>A pendant made of green seaglass encompassing a continuous hurricane.</p>
+            <p>Upon donning and attuning to this pendant, the wearer gains the following abilites:</p>
+            <ul>
+                <li>Gain resistance to Lightning and Thunder damage. If already resistant, gain immunity to the type instead.</li>
+                <li>Cast Control Weather once (1) per day without requiring concentration.</li>
+                <li>Cast Transport via Storms (Transport via Plants but requires a storm to be present and creates a storm at the target location)</li>
+            </ul>
+            <p>The pendant has 3 charges that recharge 1d4-1 at dawn. You may use the charges to perform the following actions:</p>
+            <p><b>Lightning Blur (1 Charge)</b></p>
+            <p>As a part of the user's movement, expend 1 charge to gain the following abilities:</p>
+            <ul>
+                <li>Double movement speed</li>
+                <li>Opportunity attacks agaisnt you are made with disadvantage</li>
+                <li>Whenever you move within 5 feet of a hostile creature, it must succeed on a DC 15 Dexterity saving throw or take 2d8 Lightning damage once per turn.</li>
+            </ul>
+            <p><b>Thunderous Torpefy (1 Charge)</b></p>
+            <p>When casting a spell that requires a Dexterity saving throw, any creature within 30 feet will automatically fail the save.</p>
+        </description>
+        <setters>
+            <set name="keywords">maelstrom, rider</set>
+            <set name="category">Wonderous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+</elements>

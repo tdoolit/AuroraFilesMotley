@@ -14,5 +14,6 @@
         <file name="paladin-open-sea.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/paladin-open-sea.xml"/>
         <file name="open-sea-spells.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/open-sea-spells.xml"/>
         <file name="barbarian-martial-revis.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/barbarian-martial-revis.xml"/>
+        <file name="motley-artifacts.xml" url="https://raw.githubusercontent.com/tdoolit/AuroraFilesMotley/main/motley-artifacts.xml"/>
     </files>
 </index>
